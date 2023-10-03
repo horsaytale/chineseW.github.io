@@ -1,0 +1,94 @@
+* {
+  margin: 0 auto;
+}
+body {
+  background-color: black;
+  margin: auto 0;
+}
+
+section {
+  background-color: #f4f0e8;
+  width: 75%;
+  height: 80%;
+  padding: 30px;
+}
+main {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  text-align: center;
+}
+main h1 {
+  font-weight: bolder;
+  font-size: 58px;
+  font-family: "Times New Roman, Times, serif";
+}
+.introduction {
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+}
+.introduction h6 {
+  margin: 0;
+  font-weight: bold;
+}
+.main-content {
+  margin: auto 0;
+  margin-top: 50px;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-margin: 0;
+  scrollbar-width: 0;
+}
+
+.card {
+  font-family: "Kanit", sans-serif;
+  margin: 15px;
+}
+.card,
+.card img {
+  border-top-right-radius: 30px !important;
+  height: 280px;
+  width: 300px;
+}
+.card {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#more_text {
+  display: none;
+}
+/* .card img {
+  transition: transform 0.5s, filter 1s ease-in-out;
+  filter: grayscale(100%);
+} */
+/* .card:hover img {
+  filter: grayscale(0);
+  transform: scale(1.1);
+} */
+a {
+  border: 1px solid black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 4px;
+}
+.row-content {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 520px) {
+  .card,
+  .card img {
+    height: 250px;
+    width: 240px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .card,
+  .card img {
+    height: 200px;
+    width: 190px;
+  }
+}
