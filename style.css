@@ -9,7 +9,7 @@ body {
 section {
   background-color: #f4f0e8;
   width: 75%;
-  height: 80%;
+  /* height: 80%; */
   padding: 30px;
 }
 main {
@@ -35,7 +35,6 @@ main h1 {
 .main-content {
   margin: auto 0;
   margin-top: 50px;
-  height: 400px;
 }
 
 .card {
@@ -76,6 +75,10 @@ a {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 1220px) {
+  .main-content {
+  }
+}
 @media screen and (max-width: 520px) {
   .card,
   .card img {
@@ -88,5 +91,8 @@ a {
   .card img {
     height: 200px;
     width: 190px;
+  }
+  main h1 {
+    font-size: 40px;
   }
 }
