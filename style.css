@@ -51,8 +51,10 @@ main h1 {
 .dog-title {
   margin-top: 70px;
 }
-.card {
+.car-title {
+  margin-top: 90px;
 }
+
 #more_text {
   display: none;
 }
@@ -75,10 +77,7 @@ a {
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 1220px) {
-  .main-content {
-  }
-}
+
 @media screen and (max-width: 520px) {
   .card,
   .card img {
@@ -92,7 +91,20 @@ a {
     height: 200px;
     width: 190px;
   }
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
   main h1 {
     font-size: 40px;
+  }
+  .dog-title {
+    margin-top: 50px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .car-title {
+    margin-top: 28px;
   }
 }
